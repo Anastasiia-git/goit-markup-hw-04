@@ -271,32 +271,30 @@ img {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
-
 .icons-link {
   fill: #f4f4fd;
 }
-
-.list-icons {
+.container-icons {
   display: flex;
+  align-items: baseline;
+  justify-content: center;
   gap: 24px;
   margin-bottom: 32px;
   margin-left: 16px;
   margin-right: 16px;
 }
-.team-icons {
+.icons-link {
+  width: 100%;
+  height: 100%;
+  background-color: #4d5ae5;
+  border-radius: 50%;
   display: flex;
-  justify-content: center;
   align-items: center;
-
+  justify-content: center;
+}
+.team-icons {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: #404bbf;
-}
-.container-icons {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
 }
 /* #endregion team */
 
