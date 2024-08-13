@@ -271,6 +271,7 @@ img {
   font-size: 16px;
   letter-spacing: 0.02em;
 }
+
 .icons-link {
   fill: #f4f4fd;
 }
@@ -291,10 +292,15 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-.team-icons {
+
   width: 40px;
   height: 40px;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.icons-link:hover,
+.icons-link:focus {
+  background-color: #404bbf;
 }
 /* #endregion team */
 
