@@ -293,7 +293,11 @@ img {
   border-radius: 50%;
   background-color: #404bbf;
 }
-
+.container-icons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
 /* #endregion team */
 
 /* #region portfolio */
@@ -378,7 +382,7 @@ img {
   display: flex;
   align-items: baseline;
 }
-.footer-content {
+.container.footer-content {
   margin-right: 120px;
 }
 .footer {
