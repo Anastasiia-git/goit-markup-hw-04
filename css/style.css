@@ -389,8 +389,11 @@ img {
   align-items: baseline;
   margin-right: 120px;
 }
-.footer-content {
+.container.footer-content {
   margin-right: 120px;
+}
+.container.footer-icons {
+  margin-left: 0;
 }
 .footer-logo {
   display: inline-block;
@@ -403,10 +406,6 @@ img {
   max-width: 264px;
   color: #f4f4fd;
   letter-spacing: 0.02em;
-}
-.footer-containe {
-  display: flex;
-  flex-direction: row;
 }
 .media-subtitle {
   font-weight: 500;
