@@ -270,15 +270,13 @@ img {
   text-align: center;
   font-size: 16px;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .list-icons {
   display: flex;
   align-items: baseline;
   justify-content: center;
   gap: 24px;
-  margin-bottom: 32px;
-  margin-left: 16px;
-  margin-right: 16px;
 }
 
 .icons-link {
